@@ -1,0 +1,10 @@
+<body class="contact-wrapper">
+<div class="header-bar">
+<form method="POST" class="post-form" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label for="file">Upload file here</label>
+        <input class='button' id="file" type='file' name='uploadedfile'>
+        <button class='button' type="submit" >Analyze</button>
+</form>
+</div>
+</body>
